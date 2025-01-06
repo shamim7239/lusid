@@ -1,0 +1,232 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    font-family: sans-serif;
+    font-size: 14px;
+    line-height: 1.7em;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: serif;
+}
+img{
+    width: 100%;
+    height: auto;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: none;
+}
+ /* header part css start */
+.header{
+    width: 100%;
+    padding: 20px 0px 80px;
+    background: url(../images/img.png1.png) center top no-repeat;
+}
+.header .logo-icon{
+    text-align: right;
+    font-size: 12px;
+    font-weight: 700;
+    color: #2e2e33;
+    margin: 0px 6px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .nav-link{
+    font-size: 14px;
+    font-weight: 400;
+    text-transform:capitalize;
+    letter-spacing: 3px;
+    color: rgb(225, 238, 238);
+    padding: 0px 10px;
+}
+.header .navbar-expand-lg .navbar-nav .nav-item .nav-link:hover{
+    cursor: pointer;
+    border-bottom: 2px solid rgb(150, 233, 233);
+}
+/* header part start */
+/* header-left part start */
+.header .header-left{
+    padding: 80px 0px;
+}
+.header .header-left h6{
+    color: #116995;
+    font-size: 16px;
+    font-weight: 600;
+}
+.header .header-left h1{
+    color: #f2f1f7;
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+.header .header-left p{
+    color: #f2f1f7;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+.header .header-left .btn {
+    margin: 40px 8px 0px;
+    font-size: 12px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+/* header-left part end */
+/* banner part start */
+.banner{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-banner{
+    text-align: center;
+}
+.inner-banner h6{
+    color: #116995;
+    font-size: 16px;
+    font-weight: 600;
+}
+.inner-banner h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+    text-transform: capitalize;
+    margin: 15px 0px;
+}
+.inner-banner p{
+    color: #116995;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.7em;
+}
+.banner-left{
+    text-align: center;
+}
+.banner-left .icon-logo{
+    width: 7%;
+    height: 20px;
+    margin: 20px 0px;
+}
+.banner-left h4{
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.banner-left p{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+/* banner part end */
+/* feature part start */
+.feature{
+    width: 100%;
+    padding: 80px 0px;
+}
+.inner-feature{
+    padding: 80px 0px;
+}
+.inner-feature h5{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.2em;
+    color: #116995;
+    text-transform: uppercase;
+}
+.inner-feature h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.inner-feature h6{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #116995;
+}
+.inner-feature p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+    margin: 0px 0px 20px;
+}
+.inner-feature h4{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+}
+.inner-feature .icon-img{
+    width: 3%;
+    height: 18px;
+    margin: 0px 14px 0px 0px;
+}
+/* feature part end */
+/* focus part start */
+.focus{
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #f2f2f2;
+}
+.inner-focus{
+    padding: 80px 0px;
+}
+.inner-focus h5{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.2em;
+    color: #116995;
+    text-transform: uppercase;
+}
+.inner-focus h1{
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em;
+}
+.inner-focus h6{
+font-size: 14px;
+font-weight: 400;
+line-height: 1.2em;
+color: #116995;
+}
+.inner-focus p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+/* focus part end */
+/* footer part start */
+.footer {
+    width: 100%;
+    padding: 80px 0px;
+    background-color: #5b5b5e;
+}
+.footer .footer-left {
+    text-align: center;
+    padding: 0px 0px 40px;
+}
+.footer .footer-left h5 {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #7db2c4;
+}
+.footer .footer-left h1 {
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 1.2em
+}
+.footer .footer-left h6 {
+    font-size: 9px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #7db2c4;
+}
+.footer p{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 1.7em;
+}
+/* footer part end */
